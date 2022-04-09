@@ -1,0 +1,30 @@
+﻿{
+  "name": "dfgg",
+  "description": "zad",
+  "keywords": [
+    "hgjuy"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "99855e7f-7b37-40ce-a715-5f42bb1e0514",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/abboo",
+      "required": true
+    }
+  },
+  "website": "https://github.com/bhghj3/dfsgvg",
+  "repository": "https://github.com/bhghj3/dfsgvg",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
